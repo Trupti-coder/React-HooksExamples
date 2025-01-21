@@ -7,7 +7,6 @@ function Counter(){
         setCount(count+1);
     }
 
-   
     return(
         <>
         <h3>useState Hook Example</h3>
