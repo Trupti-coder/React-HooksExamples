@@ -8,6 +8,7 @@ function App() {
     <Counter />
     <hr></hr>
     <Timer />
+    <hr></hr>
     </>
   );
 }
