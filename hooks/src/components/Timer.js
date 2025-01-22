@@ -6,10 +6,11 @@ function Timer(){
    useEffect(() => {
     document.title = `You clicked ${count} times`;
   }, [count]);
-  
+
     return(
         <>
-        
+        <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
 
         </>
     );
