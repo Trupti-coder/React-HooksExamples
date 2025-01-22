@@ -9,6 +9,7 @@ function Timer(){
 
     return(
         <>
+        <p>useEffect Hook Example</p>
         <p>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>Click me</button>
 
