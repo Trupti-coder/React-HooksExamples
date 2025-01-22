@@ -18,6 +18,7 @@ function CounterWithReducer(){
 
     return(
         <>
+        <p>useReducer Hook Example</p>
         <p>Count: {state.count}</p>
         <button onClick={() => dispatch({ type: 'increment' })}>+</button>
         <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
