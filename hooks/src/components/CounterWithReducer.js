@@ -1,4 +1,4 @@
-
+import React, { useReducer } from 'react';
 
 // Reducer function to handle state changes
 function reducer(state, action) {
@@ -14,7 +14,7 @@ function reducer(state, action) {
 
 
 function CounterWithReducer(){
-
+    const [state, dispatch] = useReducer(reducer, { count: 0 });
 
     return(
         <>
