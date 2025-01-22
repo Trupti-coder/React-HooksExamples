@@ -15,10 +15,13 @@ function MemoizedButton(){
   const memoizedHandleClick = useCallback(() => {
     setCount(count + 1);
   }, [count]);
-  
+
     return(
         <>
         <p> useCallback Hook Example</p>
+        <p>Count: {count}</p>
+      {/* Render Button component */}
+      <Button handleClick={memoizedHandleClick} />
         </>
     );
 }
