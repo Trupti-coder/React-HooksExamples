@@ -18,7 +18,7 @@ function MemoizedButton(){
 
     return(
         <>
-        <p> useCallback Hook Example</p>
+        <h3> useCallback Hook Example</h3>
         <p>Count: {count}</p>
       {/* Render Button component */}
       <Button handleClick={memoizedHandleClick} />
