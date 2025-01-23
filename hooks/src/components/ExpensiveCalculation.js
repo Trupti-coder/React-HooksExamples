@@ -13,6 +13,7 @@ function ExpensiveCalculationComponent() {
   
     return (
       <div>
+        <h3>useMemo Hook Example</h3>
         <p>Count: {count}</p>
         <p>Doubled: {doubled}</p>
         <button onClick={() => setCount(count + 1)}>Increment</button>
