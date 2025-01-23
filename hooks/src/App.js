@@ -1,5 +1,6 @@
 
 import './App.css';
+import BoxWidth from './components/BoxWidth';
 import Counter from './components/Counter';
 import CounterWithReducer from './components/CounterWithReducer';
 import ExpensiveCalculationComponent from './components/ExpensiveCalculation';
@@ -21,6 +22,8 @@ function App() {
     <ExpensiveCalculationComponent />
     <hr></hr>
     <FocusInput />
+    <hr></hr>
+    <BoxWidth />
     </>
   );
 }
