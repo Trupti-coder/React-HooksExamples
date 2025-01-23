@@ -1,4 +1,11 @@
+import { useRef } from "react";
+
 function FocusInput(){
+    const inputRef = useRef(null);
+
+  const focusInput = () => {
+    inputRef.current.focus();
+  };
     return(
         <>
         <h3>useRef Hook Example</h3>
