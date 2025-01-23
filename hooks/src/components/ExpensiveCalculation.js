@@ -19,3 +19,4 @@ function ExpensiveCalculationComponent() {
       </div>
     );
   }
+  export default ExpensiveCalculationComponent;
