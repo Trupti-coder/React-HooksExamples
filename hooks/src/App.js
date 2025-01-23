@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './components/Counter';
 import CounterWithReducer from './components/CounterWithReducer';
 import ExpensiveCalculationComponent from './components/ExpensiveCalculation';
+import FocusInput from './components/FocusInput';
 import MemoizedButton from './components/MemoizedButton';
 import Timer from './components/Timer';
 
@@ -18,6 +19,8 @@ function App() {
     <MemoizedButton />
     <hr></hr>
     <ExpensiveCalculationComponent />
+    <hr></hr>
+    <FocusInput />
     </>
   );
 }
