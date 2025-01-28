@@ -1,5 +1,26 @@
 
 function FormDemo(){
+
+   let txtUname=useRef();
+    let txtPassword=useRef();
+
+    function funSubmit(event){
+        event.preventDefault();
+        console.log(txtUname.current.value,txtPassword.current.value);
+        Cookies.set(txtUname.current.value,txtPassword.current.value,{expires:2});
+
+    }
+    function funRead(){
+        var txt=prompt("Enter the cookie name");
+        Cookies.remove(txt);
+
+    }
+    function funRemove(){
+        var txt=prompt("Enter the cookie name");
+        var res=Cookies.get(txt);
+        console.log(res);
+
+    }
   return(
     <>
      <h3>Uncontrolled Form!!</h3>
