@@ -1,6 +1,12 @@
 
 function ArrayDemo(){
   var color=["red","yellow","pink","green","blue","black"];
+  
+    var student=[
+        {rollno:1,name:"aaa",marks:45},
+        {rollno:2,name:"bb",marks:85},
+        {rollno:2,name:"ccc",marks:65},
+    ];
   return(
     <>
     <div>
@@ -13,6 +19,7 @@ function ArrayDemo(){
     }
     </ul>
     </div>
+      
     </>
   );
 }
