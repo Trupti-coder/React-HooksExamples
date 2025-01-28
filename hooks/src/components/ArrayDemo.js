@@ -18,6 +18,16 @@ function ArrayDemo(){
       })
     }
     </ul>
+       {
+                    color.filter((x)=>{
+                        if(x.startsWith('b')){
+                            return<li>{x}</li>
+                        }
+
+                    })
+                }
+      <ul>
+      </ul>
     </div>
       
     </>
