@@ -29,6 +29,14 @@ function ArrayDemo(){
       <ul>
       </ul>
     </div>
+        <table border="2">
+        <tr>
+                    <th>Rollno</th>
+                    <th>Name</th>
+                    <th>marks</th>
+                    
+                </tr>{
+        </table>
       
     </>
   );
