@@ -35,7 +35,17 @@ function ArrayDemo(){
                     <th>Name</th>
                     <th>marks</th>
                     
-                </tr>{
+                </tr>
+        {
+                    student.map((x)=>{
+                        return <tr key={x.rollno} onClick={()=>{rowClick(x)}}>
+                            <td>{x.rollno}</td>
+                            <td>{x.name}</td>
+                            <td>{x.marks}</td>
+                            
+                        </tr>
+                    })
+                }
         </table>
       
     </>
